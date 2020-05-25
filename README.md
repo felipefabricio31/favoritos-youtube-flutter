@@ -15,6 +15,7 @@
     shared_preferences: ^0.4.3
     rxdart: ^0.20.0
     bloc_pattern: ^1.3.0
+    flutter_launcher_icons: "^0.7.3"
 </pre>
 
 ## Publicar app Flutter
