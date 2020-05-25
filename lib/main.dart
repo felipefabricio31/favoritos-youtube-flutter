@@ -1,7 +1,11 @@
+import 'package:favoritos_youtube_bloc/api.dart';
 import 'package:favoritos_youtube_bloc/screens/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  Api api = Api();
+  api.search("toguro");
+
   runApp(MyApp());
 }
 
@@ -18,4 +22,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
