@@ -1,19 +1,20 @@
 # Favoritos do Youtube
 
-<img src="https://user-images.githubusercontent.com/29135156/82818494-2c4fa200-9e75-11ea-9d28-91f56de742b8.jpeg" width="100%" heigth="auto">
+<img src="https://user-images.githubusercontent.com/29135156/82819006-0a0a5400-9e76-11ea-9ac4-9e6677540e91.gif" width="100%" heigth="auto">
 
 ## Introdução
 
-<p>Descrição do app.</p>
+<p>App desenvolvido e Flutter + Dart + Api do Youtube + Pattern Bloc.</p>
+<p>Este app permite o usuário realizar uma busca em videos do youtube e salvar alguns como favoritos. A lista de vídeos contém um scroll automático após no fim da lista. Este app consome a API Do Youtube e </p>
 
 # Pacotes utilizados
 
 <pre>
-    flutter_youtube: "^2.0.0"
-    http: ^0.12.1
-    shared_preferences: ^0.5.7+3
-    rxdart: ^0.24.1
-    bloc_pattern: ^2.5.1
+    flutter_youtube: ^1.1.4
+    http: ^0.12.0
+    shared_preferences: ^0.4.3
+    rxdart: ^0.20.0
+    bloc_pattern: ^1.3.0
 </pre>
 
 ## Publicar app Flutter

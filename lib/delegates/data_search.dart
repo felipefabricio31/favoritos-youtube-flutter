@@ -29,14 +29,15 @@ class DataSearch extends SearchDelegate<String> {
   @override
   Widget buildResults(BuildContext context) {
     Future.delayed(Duration.zero).then((_) => close(context, query));
+
     return Container();
   }
 
   @override
   Widget buildSuggestions(BuildContext context) {
-    if (query.isEmpty) {
+    if (query.isEmpty)
       return Container();
-    } else {
+    else
       return FutureBuilder<List>(
         future: suggestions(query),
         builder: (context, snapshot) {
@@ -60,7 +61,6 @@ class DataSearch extends SearchDelegate<String> {
           }
         },
       );
-    }
   }
 
   Future<List> suggestions(String search) async {
@@ -72,7 +72,7 @@ class DataSearch extends SearchDelegate<String> {
         return v[0];
       }).toList();
     } else {
-      throw Exception("Failed to load  suggestions.");
+      throw Exception("Failed to load suggestions");
     }
   }
 }
